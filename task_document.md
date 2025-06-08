@@ -41,8 +41,15 @@ Seen in the eighth  block. the biggest_connected_graph variable originally grabb
 
 Seen in the tenth block. the people_df dataframe is merged with the pandas default 'inner' merge, which requires both dataframes to have data to complete the merge, if one of the dataframe cells is empty,both rows are dropped which can sliently delete important data. Adjusted code is shown to make the dataframe a left merge, only dropping if demographic info is missing, not if the centrality data is missin (it also see the records that are incomplete with this merge). A check is made afterwards to warn if there was some data dropped/missing.
 
+<b> Why these four changes </b>
+
+These four changes were chosen as they seemed to greatly affect the data seen in the document and added real value to the analysis. Other options like better documenting the code used were less important than cutting out the reduction of important data, covering edge cases and better describing graphs shown. 
+
 ### Task 3 - (0.5 Marks)
 
+The software_background data point is transformed very early in the code (from string 'f' and 't's into boolean), but is never used to showcase or extrapolate any data or result. Directors with a software background could be compared to many other statistics to learn about this application. For example do they form clusters with other directors with a strong software background? Are they paid more or less than other directors? 
+
+This metric is very underused and could be added to the analysis to better understand differences in directors and their backgrounds.
 
 ### Task 4 - (2 Marks)
 
