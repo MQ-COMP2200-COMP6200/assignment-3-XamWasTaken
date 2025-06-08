@@ -103,4 +103,10 @@ Finally, figure 7 outlines the impact that our measurement values actually have 
 
 ### Option C - Ethics
 
-The ethics of this project are complicated but once broken down it can be clear how contraversial the data collection is.
+The ethics of this project are complicated but once broken down it can be clear how contraversial the data collection is. While there is benefit to investigating the influence of high-end directors in big companies or organisations, sharing of this data and presentation may come with privacy issues if not disclosed before sharing or displaying. 
+
+When showcasing the data to groups who are not aware of what certain measurements do, the results can be misconstrued into meaning more than the mathematical depiction they describe. For example the eigenvector centrality feature may be digested as meaning those individuals have a higher purpose or moral worth. But instead the measurement is a simpler result of the connections a director has. It must be taken with caution when presenting this data to every day groups. 
+
+Avoiding bias or misrepresentation is also imporant, as measurements that graph differences between genders should not be misunderstood to mean that one gender may deserve less or more than another. 
+
+Overall the data itself does not have any ethical misuse when displayed with the right preparation, disclosures and verification of understanding amongst the audience it is being shown to. Security issues should also not rise to conflict as the information found in the data is already publically available.
