@@ -4,13 +4,13 @@ Here is the written answers for the tasks
 
 
 ### Task 1 - (1.5 Marks)
-Within the context of this Data Scientist's Notebook, the Eigenvector centrality value outlines a person who is not just well-connected but connected to other well-connected individuals or companies. 
+Within the context of this Data Scientist's Notebook, the <u>Eigenvector centrality</u> value outlines a person who is not just well-connected but connected to other well-connected individuals or companies. 
 
 In this dataset, a high eigenvector centrality is likely influential in the network, sitting on many boards or highly connected amongst companies. A lower eigenvector score shows the opposite, a director with little influence or connections to other board members or companies.
 
-The Degree centrality stat counts the number of direct links a node has. 
+The <u>Degree centrality</u> stat counts the number of direct links a node has. 
 
-A high degree centrality for a director means they sit on the boards of many companies. Such individuals may not be connected to powerful nodes, but their broad reach suggests operational or advisory influence across many firms, which is relevant for identifying prolific or versatile professionals.
+A high degree centrality for a director means they sit on the boards of many companies. Such individuals may not be connected to powerful nodes, but their broad reach suggests operational or advisory influence across many firms, which is relevant for identifying social or versatile professionals.
 
 A new measurement we've added is:
 
@@ -53,6 +53,9 @@ This metric is very underused and could be added to the analysis to better under
 
 ### Task 4 - (2 Marks)
 
+Attached to the repository is a document that outlines a large list of companies with measurements including their revenue growth, employees and headquarters. This could be compared to both collections of data where we could investigate what directors have worked in what big US companies and to what success (For example, the attached document has records relating to pepsico, nike, johnson & johnson and others). 
+
+This could give us a greater outlook on influential directors and investors in this market to find out who has had greater impact and give us a more confident judgement of who is better equipped to widen the company's connections.
 
 ### Task 5 - (8 Marks)
 
