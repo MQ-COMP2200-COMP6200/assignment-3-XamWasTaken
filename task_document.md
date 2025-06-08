@@ -59,3 +59,48 @@ This could give us a greater outlook on influential directors and investors in t
 
 ### Task 5 - (8 Marks)
 
+#### Chosen Options
+
+OPTION A: <u>Improve the data visualisations and turn this into a presentation that you could give to a non-technical audience.</u>
+
+OPTION C: <u>Write up your take on the ethics of this project.</u>
+
+
+### Option A - Presentation
+Included in <i>directors-network.ipynb</i> are four new visualisations to help with the short presentation.
+
+#### Figure 1
+
+To begin the presentation we highlight the top 13 directors with the highest eigenvector scores, there are two main points to bring up with this figure, all of their eigenvector scores are approximately equal and the choice of showcasing the top 13 is an odd number to choose from. We show this graph as a point of question that will be answered in future graphs. 
+
+#### Figure 2
+
+Figure 2 does not display much differently than figure 1, investigating the same question we see all our directors fall under two distinct points along the X-Axis. This suggests that the eigenvector scores for all directors really only fit into two separate categories which we will investigate in future figures. 
+
+#### Figure 3
+
+To investigate the two questions that figure 1 outlined for us we made a bar chart that shows the groupings of all directors into 4 succinct bins. It becomes more clear now as almost all directors fall into a bin that holds incredibly small eigenvector centrality measurements whilst there is no directors in the two middle bins, and a very small few in the top bin. This shows us how skewed our data is, with only a few directors having a non-almost-zero eigenvector score. Included under this bar graph is a printed data point that tells us that there are exactly 13 directors who fall under the top bin.
+
+This is why we chose to showcase the names of the top 13 as it appears they are the only directors with meaningful eigenvector centrality values. 
+
+#### Figure 4
+
+Moving on to a different point of interest. This figure displays the comparison of directors' age to their compensation via a DBSSCAN. It has added labelling to the Y-Axis to better understand the compensation these directors are receiving at different brackets. Almost all data is well balanced about ages 55-70 meaning the average age of the very wealthy directors is quite high and most make over 6 figures but below 7 in compensation.
+
+#### Figure 5
+
+This figure better shows the compensation difference between the genders. With a fairly even distribution for each gender, it is important to note the interquartile range for women has a slightly higher band than the men, but the men have far more outliers on the upper range or fourth quartile than the women.
+
+#### Figure 6
+
+Figure 6 has been used previously in the document and it shows us the distribution of the log compensation a director has plotted against the number of companies that they work for. At the bottom end we have a far higher compensation value, this could elude to a lack of data points at this amount of companies worked for, or that working for a lesser number of companies can result in a higher compensation, this might make sense as working at the same company for an extended period of time can net you higher positions in that company and thus greater compensation in the long run.
+
+Past this lower number, the compensation jumps around mostly unevenly with the lowest points being seen at 5 and 14 companies worked for, its most likely a lack of data points for the high end of x-values showcasing only a minor change in compensation compared to the middle values but the middle end would have a safe amount of data points to hold this information as verifiable.
+
+#### Figure 7
+
+Finally, figure 7 outlines the impact that our measurement values actually have when mapped against a director's compensation. According to this mapping it appears the eigenvector centrality measurement is the only significant measurement that can accurately predict a directors' compensation. 
+
+### Option C - Ethics
+
+The ethics of this project are complicated but once broken down it can be clear how contraversial the data collection is.
